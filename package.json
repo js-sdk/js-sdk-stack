@@ -1,0 +1,35 @@
+{
+  "name": "js-sdk-stack",
+  "version": "0.1.0",
+  "description": "Simple stack type.",
+  "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-sdk/js-sdk-stack.git"
+  },
+  "keywords": ["stack", "type"],
+  "author": "Bruno Dias",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/js-sdk/js-sdk-stack/issues"
+  },
+  "homepage": "https://github.com/js-sdk/js-sdk-stack#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babelify": "^7.3.0",
+    "browserify": "^14.4.0",
+    "coveralls": "^2.13.1",
+    "mocha": "^3.5.0",
+    "nyc": "^11.2.1",
+    "should": "^12.0.0"
+  },
+  "nyc": {
+    "exclude": [
+      "tests/*.js"
+    ]
+  }
+}
